@@ -36,12 +36,12 @@
         "source": "C:\\Users\\iam1\\.android\\build-cache\\f004d5ab6389d6087a48581f630115b5e1b016cf\\output\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\iam1\\AndroidStudioProjects\\Translator\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
-        "source": "C:\\Users\\iam1\\.android\\build-cache\\bd8b51095f2b575855409fa525173d413675e6f1\\output\\res\\layout\\design_bottom_navigation_item.xml"
-    },
-    {
         "merged": "C:\\Users\\iam1\\AndroidStudioProjects\\Translator\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
         "source": "C:\\Users\\iam1\\.android\\build-cache\\f004d5ab6389d6087a48581f630115b5e1b016cf\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\iam1\\AndroidStudioProjects\\Translator\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
+        "source": "C:\\Users\\iam1\\.android\\build-cache\\bd8b51095f2b575855409fa525173d413675e6f1\\output\\res\\layout\\design_bottom_navigation_item.xml"
     },
     {
         "merged": "C:\\Users\\iam1\\AndroidStudioProjects\\Translator\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
