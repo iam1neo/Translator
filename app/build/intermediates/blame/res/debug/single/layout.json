@@ -124,6 +124,10 @@
         "source": "C:\\Users\\iam1\\.android\\build-cache\\f004d5ab6389d6087a48581f630115b5e1b016cf\\output\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
+        "merged": "C:\\Users\\iam1\\AndroidStudioProjects\\Translator\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_loading.xml",
+        "source": "C:\\Users\\iam1\\AndroidStudioProjects\\Translator\\app\\src\\main\\res\\layout\\activity_loading.xml"
+    },
+    {
         "merged": "C:\\Users\\iam1\\AndroidStudioProjects\\Translator\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
         "source": "C:\\Users\\iam1\\.android\\build-cache\\f004d5ab6389d6087a48581f630115b5e1b016cf\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
