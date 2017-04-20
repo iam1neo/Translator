@@ -3,6 +3,8 @@ package ru.iam1.translator;
 import android.content.Context;
 
 import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.NodeList;
 import org.xml.sax.InputSource;
 
 import java.io.BufferedReader;
@@ -12,6 +14,7 @@ import java.io.StringReader;
 import java.io.StringWriter;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.Locale;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -20,13 +23,12 @@ import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
-import javax.xml.xpath.XPath;
-import javax.xml.xpath.XPathFactory;
 
 public class PhpClient {
+    private static String KEY="trnsl.1.1.20170419T194153Z.69e702a276d3a156.6df6c77104b7be215862cc5fd6d1c75a70c1c7d1";
     public static int RESP_OK = 0;
     public static int RESP_ERROR = 1;
-    public static int RESP_NO_CONNECTION = 3;
+    public static int RESP_NO_CONNECTION = 2;
 
     private Context context;
 
@@ -53,7 +55,7 @@ public class PhpClient {
             conn.setDoInput(true);
 
             DataOutputStream wr = new DataOutputStream(conn.getOutputStream());
-            wr.writeBytes(urlParameters);
+            wr.writeBytes("key="+KEY+"&"+urlParameters);
             wr.flush();
             wr.close();
 
@@ -97,19 +99,20 @@ public class PhpClient {
         return null;
     }
 
-    public int test_connection(){
-        return RESP_OK;
-        /*Document xml_res = communicate("http://192.168.0.20:8080/android_server.php","api=1.0&action=test_connection");
-        if(xml_res==null) return RESP_NO_CONNECTION;
+    //Получение списка поддерживаемых языков
+    public String getLangs (){
+        Document doc = communicate("https://translate.yandex.net/api/v1.5/tr/getLangs","ui="+Locale.getDefault().getLanguage());
+        if(doc==null) return null;
+        StringBuilder res = new StringBuilder();
         try {
-            XPathFactory xpf = XPathFactory.newInstance();
-            XPath xp = xpf.newXPath();
-            String code = xp.evaluate("/DetectedLang/@code", xml_res.getDocumentElement());
-            String lang = xp.evaluate("/DetectedLang/@lang",xml_res.getDocumentElement());
-            log("code = "+code);
-            log("lang = "+lang);
-            if(code.equals("200")) return RESP_OK;
+            NodeList langsList = doc.getElementsByTagName("Item");
+            for (int i = 0; i < langsList.getLength(); i++) {
+                Element langEl = (Element) langsList.item(i);
+                if(res.length()>0)res.append(";");
+                res.append(langEl.getAttribute("key")+"="+langEl.getAttribute("value"));
+            }
+            return res.toString();
         }catch(Exception e){}
-        return RESP_NO_CONNECTION;//"Нет соединения с сервером."*/
+        return null;
     }
 }

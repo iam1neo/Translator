@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <integer name="start_logo_ms" >5000</integer>
+    <integer name="start_logo_ms" >3000</integer>
     <integer name="server_connect_timeout_ms" >2000</integer>
     <integer name="server_read_timeout_ms" >10000</integer>
 </resources>

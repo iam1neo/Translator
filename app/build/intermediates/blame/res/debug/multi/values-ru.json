@@ -239,14 +239,7 @@
                     "endOffset": 2077
                 },
                 "from": {
-                    "file": "C:\\Users\\iam1\\AndroidStudioProjects\\Translator\\app\\src\\main\\res\\values-ru\\strings.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 57,
-                        "endColumn": 47,
-                        "endOffset": 100
-                    }
+                    "file": "C:\\Users\\iam1\\AndroidStudioProjects\\Translator\\app\\src\\main\\res\\values-ru\\strings.xml"
                 }
             },
             {
@@ -254,20 +247,39 @@
                     "startLine": 22,
                     "startColumn": 4,
                     "startOffset": 2082,
-                    "endColumn": 80,
-                    "endOffset": 2158
+                    "endColumn": 40,
+                    "endOffset": 2118
                 },
                 "from": {
-                    "file": "C:\\Users\\iam1\\.android\\build-cache\\f004d5ab6389d6087a48581f630115b5e1b016cf\\output\\res\\values-ru\\values-ru.xml"
+                    "file": "C:\\Users\\iam1\\AndroidStudioProjects\\Translator\\app\\src\\main\\res\\values-ru\\strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 2163,
-                    "endColumn": 100,
-                    "endOffset": 2259
+                    "startOffset": 2123,
+                    "endColumn": 128,
+                    "endOffset": 2247
+                },
+                "from": {
+                    "file": "C:\\Users\\iam1\\AndroidStudioProjects\\Translator\\app\\src\\main\\res\\values-ru\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 313,
+                        "endColumn": 128,
+                        "endOffset": 437
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2252,
+                    "endColumn": 80,
+                    "endOffset": 2328
                 },
                 "from": {
                     "file": "C:\\Users\\iam1\\.android\\build-cache\\f004d5ab6389d6087a48581f630115b5e1b016cf\\output\\res\\values-ru\\values-ru.xml"
@@ -275,59 +287,50 @@
             },
             {
                 "to": {
-                    "startLine": 24,
-                    "startColumn": 4,
-                    "startOffset": 2264,
-                    "endColumn": 52,
-                    "endOffset": 2312
-                },
-                "from": {
-                    "file": "C:\\Users\\iam1\\AndroidStudioProjects\\Translator\\app\\src\\main\\res\\values-ru\\strings.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 161,
-                        "endColumn": 52,
-                        "endOffset": 209
-                    }
-                }
-            },
-            {
-                "to": {
                     "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 2317,
-                    "endColumn": 52,
-                    "endOffset": 2365
+                    "startOffset": 2333,
+                    "endColumn": 100,
+                    "endOffset": 2429
                 },
                 "from": {
-                    "file": "C:\\Users\\iam1\\AndroidStudioProjects\\Translator\\app\\src\\main\\res\\values-ru\\strings.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 215,
-                        "endColumn": 52,
-                        "endOffset": 263
-                    }
+                    "file": "C:\\Users\\iam1\\.android\\build-cache\\f004d5ab6389d6087a48581f630115b5e1b016cf\\output\\res\\values-ru\\values-ru.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 2370,
-                    "endColumn": 53,
-                    "endOffset": 2419
+                    "startOffset": 2434,
+                    "endColumn": 52,
+                    "endOffset": 2482
                 },
                 "from": {
-                    "file": "C:\\Users\\iam1\\AndroidStudioProjects\\Translator\\app\\src\\main\\res\\values-ru\\strings.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 106,
-                        "endColumn": 53,
-                        "endOffset": 155
-                    }
+                    "file": "C:\\Users\\iam1\\AndroidStudioProjects\\Translator\\app\\src\\main\\res\\values-ru\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2487,
+                    "endColumn": 52,
+                    "endOffset": 2535
+                },
+                "from": {
+                    "file": "C:\\Users\\iam1\\AndroidStudioProjects\\Translator\\app\\src\\main\\res\\values-ru\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2540,
+                    "endColumn": 53,
+                    "endOffset": 2589
+                },
+                "from": {
+                    "file": "C:\\Users\\iam1\\AndroidStudioProjects\\Translator\\app\\src\\main\\res\\values-ru\\strings.xml"
                 }
             }
         ]

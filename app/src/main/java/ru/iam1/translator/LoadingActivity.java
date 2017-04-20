@@ -13,8 +13,10 @@ import java.util.TimerTask;
 
 
 public class LoadingActivity extends Activity {
+    public static String EXTRA_LANGS = "langs";
     Timer mTimer;
     AsyncTasks tasks;
+    String langs;
     boolean isRunning=false;//активна ли активити
     boolean timer_finished=false;//прошло ли ожидание таймера
     boolean tasks_finished=false;//выполнены ли все необходимые процессы
@@ -22,7 +24,6 @@ public class LoadingActivity extends Activity {
 
     private static int REQUEST_EXIT = 1;//код для главного меню и закрытия при возврате
 
-    private static int DIALOG_UPDATE_APP = 1;//код открытия диалога обновления приложения
     private static int DIALOG_NO_CONNECTION = 2;//код открытия предупреждения отсутствия соединения
 
     private void log(Object o){
@@ -102,7 +103,7 @@ public class LoadingActivity extends Activity {
     }
     class AsyncTasks extends AsyncTask<Void, Void, Void> {
         LoadingActivity act;
-        int response_code=PhpClient.RESP_ERROR;
+        String getLangs;
 
         public AsyncTasks(LoadingActivity a){
             act=a;
@@ -117,7 +118,7 @@ public class LoadingActivity extends Activity {
         @Override
         protected Void doInBackground(Void... params) {
             PhpClient php = new PhpClient(act);
-            response_code = php.test_connection();
+            getLangs = php.getLangs();
             return null;
         }
 
@@ -126,10 +127,11 @@ public class LoadingActivity extends Activity {
             super.onPostExecute(result);
             log("AsyncTasks End");
             tasks_finished = true;
-            if(response_code==PhpClient.RESP_NO_CONNECTION)
+            langs=getLangs;
+            if(langs==null)
                 openDialog(DIALOG_NO_CONNECTION);
-            else if(response_code==PhpClient.RESP_OK)
-                dialog_finished = true;//их и не будет
+            else
+                dialog_finished = true;//диалогов и не будет
 
             if(act.isRunning && dialog_finished && timer_finished)
                 startMainActivity();
@@ -141,39 +143,28 @@ public class LoadingActivity extends Activity {
         DialogInterface.OnClickListener dialogClickListener = new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                log("DialogInterface onClick which="+which);
                 switch (which){
-                    case DialogInterface.BUTTON_POSITIVE:
-                        //надо перейти в гугл плей на страницу приложения
-                        finish();
-                    case DialogInterface.BUTTON_NEGATIVE:
-                        //отказались обновлять, ничего не делаем
-                        break;
                     case DialogInterface.BUTTON_NEUTRAL:
-                        //приняли к сведению
-                        break;
+                        finish();
                 }
                 dialog_finished = true;
                 if(tasks_finished && timer_finished)
                     startMainActivity();
             }
         };
-        /*AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle(R.string.warning);
-        if(dialog_type==DIALOG_UPDATE_APP){
-            builder.setMessage(R.string.old_api);
-            builder.setPositiveButton(R.string.yes, dialogClickListener);
-            builder.setNegativeButton(R.string.not_now, dialogClickListener);
-        }else if(dialog_type==DIALOG_NO_CONNECTION){
-            builder.setMessage(R.string.no_connection);
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle(R.string.error);
+        if(dialog_type==DIALOG_NO_CONNECTION){
+            builder.setMessage(R.string.get_langs_error);
             builder.setNeutralButton(R.string.ok, dialogClickListener);
         }
         builder.setCancelable(false);//чтоб не закрывался по кнопке Назад
-        builder.show();*/
+        builder.show();
     }
 
     void startMainActivity(){
         Intent intent = new Intent(this,MainActivity.class);
+        intent.putExtra(EXTRA_LANGS,langs);
         startActivityForResult(intent,REQUEST_EXIT);
     }
 
