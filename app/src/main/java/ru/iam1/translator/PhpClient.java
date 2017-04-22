@@ -122,10 +122,22 @@ public class PhpClient {
         String params;
         try {
             params = "text=" + URLEncoder.encode(text, "UTF-8");
-            params += "&lang=" + lang_code_from+"-"+lang_code_to;
+            params += "&lang=" + lang_code_from +"-"+ lang_code_to;
             Document doc = communicate("https://translate.yandex.net/api/v1.5/tr/translate",params);
             if(doc==null) return null;
             return doc.getElementsByTagName("text").item(0).getTextContent();
+        }catch(Exception e){}
+        return null;
+    }
+
+    //Определение языка текста
+    public String getDetectLangCode(String text){
+        String params;
+        try {
+            params = "text=" + URLEncoder.encode(text, "UTF-8");
+            Document doc = communicate("https://translate.yandex.net/api/v1.5/tr/detect",params);
+            if(doc==null) return null;
+            return ((Element)doc.getElementsByTagName("DetectedLang").item(0)).getAttribute("lang");
         }catch(Exception e){}
         return null;
     }

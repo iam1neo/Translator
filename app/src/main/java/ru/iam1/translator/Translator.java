@@ -21,7 +21,7 @@ public class Translator {
     public int langFromIndex=-1;//индекс языка текста
     public int langToIndex=-1;//индекс языка перевода
 
-    public String textToTranslate="Привет!";//текст для перевода
+    public String textToTranslate;//текст для перевода
     public String translate;//последний полученный перевод
     public boolean isTranslated=true;//был ли переведен текст
 
@@ -74,5 +74,14 @@ public class Translator {
     }
     public String getLangCodeTo(){
         return langCodes[langToIndex];
+    }
+
+    //поиск индекса в массиве по коду языка
+    public int getIdByLangCode(String langCode){
+        for(int i=0;i<langCodes.length;i++){
+            if(langCodes[i].equals(langCode))
+                return i;
+        }
+        return -1;
     }
 }

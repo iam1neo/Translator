@@ -5,6 +5,7 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.text.method.ScrollingMovementMethod;
 import android.view.View;
 import android.view.animation.AccelerateInterpolator;
 import android.view.animation.Animation;
@@ -26,6 +27,7 @@ public class MainActivity extends Activity {
     private Translator translator;
     private Timer timer;//таймер для отложенного запроса перевода
     private TranslateAsyncTask task;
+    private DetectAsyncTask taskDetect;
 
     private void log(Object o){
         System.out.println(o);
@@ -173,7 +175,11 @@ public class MainActivity extends Activity {
 
         //инициализация текста перевода
         TextView txt_translate = (TextView)findViewById(R.id.txt_translate);
+        txt_translate.setMovementMethod(new ScrollingMovementMethod());
         txt_translate.setText(translator.translate);
+
+        Button btnAuto = (Button) findViewById(R.id.btn_auto);
+        btnAuto.setEnabled(true);
     }
 
     protected void onStart(){
@@ -195,6 +201,8 @@ public class MainActivity extends Activity {
         super.onPause();
         //убиваем таймер и таск, если они есть
         destroyTimerTask();
+        if(taskDetect!=null)
+            taskDetect.cancel(true);
     }
 
     protected void onStop(){
@@ -221,8 +229,22 @@ public class MainActivity extends Activity {
                 spn_lang_from.setSelection(translator.langToIndex);
                 break;
             case R.id.btn_clear:
+                //очищаем текстовое поле
                 EditText txt_text = (EditText)findViewById(R.id.txt_text);
                 txt_text.setText("");
+                break;
+            case R.id.btn_auto:
+                //отключим возможно запущенный таймер и таск перевода, в них сейчас необходимости возможно нет
+                destroyTimerTask();
+                //и кнопку запуска определения языка. дважды подряд запускать не надо
+                Button btnAuto = (Button) findViewById(R.id.btn_auto);
+                btnAuto.setEnabled(false);
+                //запускаем асинхронный запрос определения языка
+                if(taskDetect!=null)
+                    taskDetect.cancel(true);
+                taskDetect = new DetectAsyncTask(this);
+                taskDetect.execute();
+                break;
         }
     }
 
@@ -246,6 +268,7 @@ public class MainActivity extends Activity {
         });
     }
     private void restartTranslation(){
+        log("restartTranslation");
         //убиваем предыдущий таймер и таск, если они есть
         destroyTimerTask();
         //пока нет перевода, рано добавлять в избранное
@@ -253,7 +276,8 @@ public class MainActivity extends Activity {
         Button btnAddToFav = (Button)findViewById(R.id.btn_add_to_fav);
         btnAddToFav.setEnabled(false);
         //если нет текста, то переводить нечего (и добавлять в избранное тоже)
-        if(translator.textToTranslate==null || !translator.textToTranslate.matches(".*\\S.*")){
+        if(translator.textToTranslate==null || !translator.textToTranslate.matches("(?is)^.*\\S.*$")){
+            log("нечего переводить");
             translator.isTranslated = true;
             translator.translate = translator.textToTranslate;
             TextView txtTranslate = (TextView)findViewById(R.id.txt_translate);
@@ -304,11 +328,14 @@ public class MainActivity extends Activity {
         @Override
         protected void onPreExecute() {
             super.onPreExecute();
+            log("AsyncTasks Start.");
         }
 
         @Override
         protected Void doInBackground(Void... params) {
             PhpClient php = new PhpClient(act);
+            log("отправляем в переводчик фразу:");
+            log(translator.textToTranslate);
             translate = php.getTranslate(
                         translator.textToTranslate,
                         translator.getLangCodeFrom(),
@@ -330,6 +357,42 @@ public class MainActivity extends Activity {
                 //теперь можно добавлять в избранное
                 Button btnAddToFav = (Button)findViewById(R.id.btn_add_to_fav);
                 btnAddToFav.setEnabled(true);
+            }
+        }
+    }
+
+    //асинхронный запрос определения языка текста
+    class DetectAsyncTask extends AsyncTask<Void, Void, Void> {
+        MainActivity act;
+        String langCode;
+        public DetectAsyncTask(MainActivity a){
+            act=a;
+        }
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+            log("AsyncTasks Start.");
+        }
+        @Override
+        protected Void doInBackground(Void... params) {
+            PhpClient php = new PhpClient(act);
+            log("отправляем в автоопределитель фразу:");
+            log(translator.textToTranslate);
+            langCode = php.getDetectLangCode(translator.textToTranslate);
+            return null;
+        }
+        @Override
+        protected void onPostExecute(Void result) {
+            super.onPostExecute(result);
+            log("AsyncTasks End! detected langCode:");
+            log(langCode);
+            //возвращаем активность кнопке определения языка
+            Button btnAuto = (Button) findViewById(R.id.btn_auto);
+            btnAuto.setEnabled(true);
+            if(langCode!=null && !langCode.equals("")) {
+                //запоминаем язык, возможно инициируя и запрос перевода
+                Spinner spn_lang_from = (Spinner) findViewById(R.id.spn_lang_from);
+                spn_lang_from.setSelection(translator.getIdByLangCode(langCode));
             }
         }
     }

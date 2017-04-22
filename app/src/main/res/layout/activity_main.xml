@@ -73,7 +73,7 @@
                     <EditText
                         android:id="@+id/txt_text"
                         android:layout_width="match_parent"
-                        android:layout_height="20sp"
+                        android:layout_height="60sp"
                         android:layout_margin="5dp"
                         android:layout_weight="1"
                         android:background="@drawable/border"
@@ -125,9 +125,12 @@
                     <TextView
                         android:id="@+id/txt_translate"
                         android:layout_width="match_parent"
-                        android:layout_height="40sp"
+                        android:layout_height="80sp"
                         android:layout_margin="10dp"
                         android:layout_weight="3"
+                        android:scrollHorizontally="false"
+                        android:scrollbarAlwaysDrawVerticalTrack="true"
+                        android:scrollbars="vertical"
                         android:textSize="18sp" />
                 </LinearLayout>
 

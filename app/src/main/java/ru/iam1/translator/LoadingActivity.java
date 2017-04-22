@@ -4,12 +4,15 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.Menu;
 
 import java.util.Timer;
 import java.util.TimerTask;
+
+import static android.content.res.Configuration.ORIENTATION_LANDSCAPE;
 
 
 public class LoadingActivity extends Activity {
@@ -119,6 +122,9 @@ public class LoadingActivity extends Activity {
         protected Void doInBackground(Void... params) {
             PhpClient php = new PhpClient(act);
             getLangs = php.getLangs();
+            //еще попытка на всякий случай
+            if(getLangs==null)
+                getLangs = php.getLangs();
             return null;
         }
 
