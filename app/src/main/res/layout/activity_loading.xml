@@ -9,9 +9,10 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
+        android:gravity="center"
         android:text="@string/app_name"
-        android:textAlignment="textStart"
-        android:textColor="#e61400"
+        android:textAlignment="center"
+        android:textColor="@color/yandex_red"
         android:textSize="24sp"
         android:textStyle="bold" />
 </RelativeLayout>

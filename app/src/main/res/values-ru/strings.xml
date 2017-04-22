@@ -7,6 +7,9 @@
     <string name="title_lang_from">Язык текста</string>
     <string name="title_lang_to">Язык перевода</string>
     <string name="error">Ошибка</string>
-
+    <string name="hint_text">Введите текст для перевода</string>
+    <string name="title_auto">Автоопределение языка</string>
+    <string name="title_clear">Очистить текст</string>
+    <string name="title_add_to_favorites">Добавить в избранное</string>
     <string name="get_langs_error">Не удалось получить список поддерживаемых языков. Проверьте подключение к интернету.</string>
 </resources>

@@ -45,7 +45,7 @@ MERGED from [com.android.support:support-compat:25.3.1] C:\Users\iam1\.android\b
 	android:icon
 		ADDED from C:\Users\iam1\AndroidStudioProjects\Translator\app\src\main\AndroidManifest.xml:10:9-43
 	android:theme
-		ADDED from C:\Users\iam1\AndroidStudioProjects\Translator\app\src\main\AndroidManifest.xml:14:9-58
+		ADDED from C:\Users\iam1\AndroidStudioProjects\Translator\app\src\main\AndroidManifest.xml:14:9-40
 activity#ru.iam1.translator.LoadingActivity
 ADDED from C:\Users\iam1\AndroidStudioProjects\Translator\app\src\main\AndroidManifest.xml:15:9-23:20
 	android:label

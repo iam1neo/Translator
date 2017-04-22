@@ -8,6 +8,9 @@
     <string name="title_lang_to">Translate language</string>
     <string name="error">Error</string>
     <string name="ok">OK</string>
-
+    <string name="hint_text">Enter text to translate</string>
+    <string name="title_auto">Language auto-detection</string>
+    <string name="title_clear">Clear text</string>
+    <string name="title_add_to_favorites">Add to favorites</string>
     <string name="get_langs_error">Failed to get list of supported languages. Check your Internet connection.</string>
 </resources>

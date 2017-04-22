@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#edeadc</color>
-    <color name="colorPrimaryDark">#d8d4be</color>
-    <color name="colorAccent">#ffee93</color>
+    <color name="yandex_color">#ffcc00</color>
+    <color name="yandex_red">#e61400</color>
+    <color name="primary_text">#000</color>
+    <color name="secondary_text">#888</color>
 </resources>

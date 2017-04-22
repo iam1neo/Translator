@@ -14,6 +14,7 @@ import java.io.StringReader;
 import java.io.StringWriter;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.net.URLEncoder;
 import java.util.Locale;
 
 import javax.xml.parsers.DocumentBuilder;
@@ -112,6 +113,19 @@ public class PhpClient {
                 res.append(langEl.getAttribute("key")+"="+langEl.getAttribute("value"));
             }
             return res.toString();
+        }catch(Exception e){}
+        return null;
+    }
+
+    //Получение списка поддерживаемых языков
+    public String getTranslate(String text, String lang_code_from, String lang_code_to){
+        String params;
+        try {
+            params = "text=" + URLEncoder.encode(text, "UTF-8");
+            params += "&lang=" + lang_code_from+"-"+lang_code_to;
+            Document doc = communicate("https://translate.yandex.net/api/v1.5/tr/translate",params);
+            if(doc==null) return null;
+            return doc.getElementsByTagName("text").item(0).getTextContent();
         }catch(Exception e){}
         return null;
     }

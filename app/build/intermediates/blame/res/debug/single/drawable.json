@@ -8,16 +8,20 @@
         "source": "C:\\Users\\iam1\\.android\\build-cache\\f004d5ab6389d6087a48581f630115b5e1b016cf\\output\\res\\drawable\\notification_bg_low.xml"
     },
     {
+        "merged": "C:\\Users\\iam1\\AndroidStudioProjects\\Translator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\border.xml",
+        "source": "C:\\Users\\iam1\\AndroidStudioProjects\\Translator\\app\\src\\main\\res\\drawable\\border.xml"
+    },
+    {
         "merged": "C:\\Users\\iam1\\AndroidStudioProjects\\Translator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
         "source": "C:\\Users\\iam1\\.android\\build-cache\\f004d5ab6389d6087a48581f630115b5e1b016cf\\output\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
-        "merged": "C:\\Users\\iam1\\AndroidStudioProjects\\Translator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
-        "source": "C:\\Users\\iam1\\.android\\build-cache\\bd8b51095f2b575855409fa525173d413675e6f1\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
-    },
-    {
         "merged": "C:\\Users\\iam1\\AndroidStudioProjects\\Translator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
         "source": "C:\\Users\\iam1\\.android\\build-cache\\f004d5ab6389d6087a48581f630115b5e1b016cf\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\iam1\\AndroidStudioProjects\\Translator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\iam1\\.android\\build-cache\\bd8b51095f2b575855409fa525173d413675e6f1\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
     },
     {
         "merged": "C:\\Users\\iam1\\AndroidStudioProjects\\Translator\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",

@@ -14,12 +14,16 @@ public class Translator {
     public static String TAG_BOOKMARKS = "bookmarks";
     public static String TAG_SETTINGS = "settings";
 
-    public String[] lang_codes;//коды языков
-    public String[] lang_names;//расшифровки языков
+    public String[] langCodes;//коды языков
+    public String[] langNames;//расшифровки языков
 
     public String currentTabTag;//активная вкладка
-    public int lang_from_index=-1;//индекс языка текста
-    public int lang_to_index=-1;//индекс языка перевода
+    public int langFromIndex=-1;//индекс языка текста
+    public int langToIndex=-1;//индекс языка перевода
+
+    public String textToTranslate="Привет!";//текст для перевода
+    public String translate;//последний полученный перевод
+    public boolean isTranslated=true;//был ли переведен текст
 
     public Translator(String langs){
         //открывающаяся по умолчанию вкладка
@@ -52,15 +56,23 @@ public class Translator {
         Collections.sort(langPairs,new PairComparator());
 
         //заполним массивы кодов и расшифровок поддерживаемых языков
-        lang_codes = new String[l1.length];
-        lang_names = new String[l1.length];
+        langCodes = new String[l1.length];
+        langNames = new String[l1.length];
         for(i=0; i<l1.length; i++){
-            lang_codes[i] = langPairs.get(i).code;
-            lang_names[i] = langPairs.get(i).name;
-            if(lang_codes[i].equals("ru"))
-                lang_from_index = i;
-            if(lang_codes[i].equals("en"))
-                lang_to_index = i;
+            langCodes[i] = langPairs.get(i).code;
+            langNames[i] = langPairs.get(i).name;
+            if(langCodes[i].equals("ru"))
+                langFromIndex = i;
+            if(langCodes[i].equals("en"))
+                langToIndex = i;
         }
+    }
+
+    //получение кода языков "из" и "в"
+    public String getLangCodeFrom(){
+        return langCodes[langFromIndex];
+    }
+    public String getLangCodeTo(){
+        return langCodes[langToIndex];
     }
 }
