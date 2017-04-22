@@ -27,9 +27,9 @@
     <color name="bright_foreground_material_light">@android:color/black</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
-    <color name="colorAccent">#FF4081</color>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ffee93</color>
+    <color name="colorPrimary">#edeadc</color>
+    <color name="colorPrimaryDark">#d8d4be</color>
     <color name="design_bottom_navigation_shadow_color">#14000000</color>
     <color name="design_fab_shadow_end_color">@android:color/transparent</color>
     <color name="design_fab_shadow_mid_color">#14000000</color>
@@ -555,7 +555,7 @@
     <integer name="server_connect_timeout_ms">2000</integer>
     <integer name="server_read_timeout_ms">10000</integer>
     <integer name="show_password_duration">200</integer>
-    <integer name="start_logo_ms">5000</integer>
+    <integer name="start_logo_ms">3000</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
@@ -603,6 +603,8 @@
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="title_bookmarks">Bookmarks</string>
+    <string name="title_lang_from">Text language</string>
+    <string name="title_lang_to">Translate language</string>
     <string name="title_settings">Settings</string>
     <string name="title_translate">Translate</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

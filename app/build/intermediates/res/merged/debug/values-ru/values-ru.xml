@@ -25,6 +25,8 @@
     <string msgid="146198913615257606" name="search_menu_title">"Поиск"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">">999"</string>
     <string name="title_bookmarks">Закладки</string>
+    <string name="title_lang_from">Язык текста</string>
+    <string name="title_lang_to">Язык перевода</string>
     <string name="title_settings">Настройки</string>
     <string name="title_translate">Перевести</string>
 </resources>
