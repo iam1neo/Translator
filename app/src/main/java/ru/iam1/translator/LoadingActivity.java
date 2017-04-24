@@ -20,6 +20,7 @@ public class LoadingActivity extends Activity {
     Timer mTimer;
     AsyncTasks tasks;
     String langs;
+    AlertDialog alertDialog;//диалог при отсутствии подключения к интернету
     boolean isRunning=false;//активна ли активити
     boolean timer_finished=false;//прошло ли ожидание таймера
     boolean tasks_finished=false;//выполнены ли все необходимые процессы
@@ -29,13 +30,8 @@ public class LoadingActivity extends Activity {
 
     private static int DIALOG_NO_CONNECTION = 2;//код открытия предупреждения отсутствия соединения
 
-    private void log(Object o){
-        System.out.println(o);
-    }
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        log(this.getLocalClassName()+".onCreate");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loading);
 
@@ -50,7 +46,6 @@ public class LoadingActivity extends Activity {
 
     @Override
     protected void onResume(){
-        log(this.getLocalClassName() + ".onResume");
         isRunning=true;
         super.onResume();
         if(!timer_finished) {
@@ -65,20 +60,21 @@ public class LoadingActivity extends Activity {
     }
 
     protected void onPause(){
-        log(this.getLocalClassName()+".onPause");
         isRunning=false;
         super.onPause();
         destroyTimer();
     }
 
     protected void onStop(){
-        log(this.getLocalClassName()+".onStop");
         super.onStop();
     }
 
     protected void onDestroy(){
-        log(this.getLocalClassName() + ".onDestroy");
         super.onDestroy();
+        //если приложение закрывается при открытом диалоге, или меняется ориентация, диалог надо закрыть
+        if(alertDialog!=null && alertDialog.isShowing()){
+            alertDialog.cancel();
+        }
     }
 
 
@@ -115,7 +111,6 @@ public class LoadingActivity extends Activity {
         @Override
         protected void onPreExecute() {
             super.onPreExecute();
-            log("AsyncTasks Begin");
         }
 
         @Override
@@ -131,7 +126,6 @@ public class LoadingActivity extends Activity {
         @Override
         protected void onPostExecute(Void result) {
             super.onPostExecute(result);
-            log("AsyncTasks End");
             tasks_finished = true;
             langs=getLangs;
             if(langs==null)
@@ -145,27 +139,26 @@ public class LoadingActivity extends Activity {
     }
 
     private void openDialog(int dialog_type) {
-        log("openDialog");
         DialogInterface.OnClickListener dialogClickListener = new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 switch (which){
                     case DialogInterface.BUTTON_NEUTRAL:
                         finish();
+                        break;
                 }
                 dialog_finished = true;
-                if(tasks_finished && timer_finished)
-                    startMainActivity();
             }
         };
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle(R.string.error);
+        AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(this);
+        dialogBuilder.setTitle(R.string.error);
         if(dialog_type==DIALOG_NO_CONNECTION){
-            builder.setMessage(R.string.get_langs_error);
-            builder.setNeutralButton(R.string.ok, dialogClickListener);
+            dialogBuilder.setMessage(R.string.get_langs_error);
+            dialogBuilder.setNeutralButton(R.string.ok, dialogClickListener);
         }
-        builder.setCancelable(false);//чтоб не закрывался по кнопке Назад
-        builder.show();
+        dialogBuilder.setCancelable(false);//чтоб не закрывался по кнопке Назад
+        alertDialog = dialogBuilder.create();
+        alertDialog.show();
     }
 
     void startMainActivity(){
@@ -176,11 +169,7 @@ public class LoadingActivity extends Activity {
 
     //при возврате из главного меню закрываем приложение
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if (requestCode == REQUEST_EXIT) {
-            if (resultCode == RESULT_OK) {
-                this.finish();
-            }
-        }
+        this.finish();
     }
 
     @Override

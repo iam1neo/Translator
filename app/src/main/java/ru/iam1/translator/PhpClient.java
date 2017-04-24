@@ -12,11 +12,11 @@ import java.io.DataOutputStream;
 import java.io.InputStreamReader;
 import java.io.StringReader;
 import java.io.StringWriter;
-import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLEncoder;
 import java.util.Locale;
 
+import javax.net.ssl.HttpsURLConnection;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.transform.OutputKeys;
@@ -37,14 +37,10 @@ public class PhpClient {
         context = ctx;
     }
 
-    private void log(Object o){
-        System.out.println(o);
-    }
-
     private Document communicate(String api_url, String urlParameters){
-        HttpURLConnection conn;
+        HttpsURLConnection conn;
         try {
-            conn = (HttpURLConnection) new URL(api_url).openConnection();
+            conn = (HttpsURLConnection) new URL(api_url).openConnection();
         }catch(Exception e){
             return null;
         }
@@ -78,7 +74,6 @@ public class PhpClient {
             try{
                 conn.disconnect();
             }catch(Exception e2){}
-            log("error "+e.toString());
         }
         return null;
     }

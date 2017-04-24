@@ -3,7 +3,6 @@ package ru.iam1.translator;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.HashMap;
 
 /**
  * Created by iam1 on 20.04.2017.
@@ -11,8 +10,8 @@ import java.util.HashMap;
 
 public class Translator {
     public static String TAG_TRANSLATE = "translate";
-    public static String TAG_BOOKMARKS = "bookmarks";
-    public static String TAG_SETTINGS = "settings";
+    public static String TAG_HISTORY   = "history";
+    public static String TAG_FAVORITES = "favorites";
 
     public String[] langCodes;//коды языков
     public String[] langNames;//расшифровки языков

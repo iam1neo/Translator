@@ -20,17 +20,22 @@
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Открыть доступ пользователю %s"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Свернуть"</string>
     <string name="app_name">Переводчик</string>
+    <string name="clear_favorites_warning">Вы уверены, что хотите очистить избранное?</string>
+    <string name="clear_history_warning">Вы уверены, что хотите очистить историю переводов?</string>
+    <string name="detect_lang_error">Не удалось определить язык. Проверьте подключение к интернету.</string>
     <string name="error">Ошибка</string>
     <string name="get_langs_error">Не удалось получить список поддерживаемых языков. Проверьте подключение к интернету.</string>
+    <string name="get_translate_error">Не удалось получить перевод. Проверьте подключение к интернету.</string>
     <string name="hint_text">Введите текст для перевода</string>
+    <string name="licence_text">Переведено сервисом <a href="http://translate.yandex.ru">«Яндекс.Переводчик»</a></string>
     <string msgid="146198913615257606" name="search_menu_title">"Поиск"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">">999"</string>
     <string name="title_add_to_favorites">Добавить в избранное</string>
     <string name="title_auto">Автоопределение языка</string>
-    <string name="title_bookmarks">Закладки</string>
     <string name="title_clear">Очистить текст</string>
+    <string name="title_favorites">Избранное</string>
+    <string name="title_history">История</string>
     <string name="title_lang_from">Язык текста</string>
     <string name="title_lang_to">Язык перевода</string>
-    <string name="title_settings">Настройки</string>
     <string name="title_translate">Перевести</string>
 </resources>

@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\iam1\\AndroidStudioProjects\\Translator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\trashbox.png",
+        "source": "C:\\Users\\iam1\\AndroidStudioProjects\\Translator\\app\\src\\main\\res\\mipmap-xhdpi\\trashbox.png"
+    },
+    {
         "merged": "C:\\Users\\iam1\\AndroidStudioProjects\\Translator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher_round.png",
         "source": "C:\\Users\\iam1\\AndroidStudioProjects\\Translator\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },

@@ -17,6 +17,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3cc3332a-5a11-420d-9c34-581b65710995" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/ru/iam1/translator/DBHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/history_element.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/androidTest/debug/android/app/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/androidTest/debug/android/support/test/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/androidTest/debug/android/support/test/espresso/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/androidTest/debug/android/support/test/espresso/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/androidTest/debug/android/support/test/espresso/idling/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/androidTest/debug/android/support/test/rule/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/androidTest/debug/android/support/test/rule/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/androidTest/debug/ru/iam1/translator/ExampleInstrumentedTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/androidTest/debug/ru/iam1/translator/test/BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/androidTest/debug/ru/iam1/translator/test/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/androidTest/debug/ru/iam1/translator/test/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/androidTest/debug/ru/iam1/translator/test/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/test/debug/ru/iam1/translator/ExampleUnitTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-safeguard/androidTest/debug/tag.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/androidTest/java/ru/iam1/translator/ExampleInstrumentedTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/test/java/ru/iam1/translator/ExampleUnitTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-17-21-16-683.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-17-21-48-285.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-17-27-55-033.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-17-29-19-359.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-17-30-12-508.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-17-30-40-615.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-17-31-31-536.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-17-35-25-070.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-17-44-32-165.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-17-46-42-270.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-17-48-02-781.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-17-49-13-038.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-17-53-38-992.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-18-03-09-227.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-18-13-11-431.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-18-16-39-788.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-18-33-28-358.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-18-34-02-986.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-18-37-15-716.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-18-39-38-184.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-18-40-56-616.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-19-31-08-723.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-19-31-34-449.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-19-34-38-773.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-19-36-51-765.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-19-54-48-294.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-19-57-13-138.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-19-57-31-688.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-19-57-48-129.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-19-58-01-611.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-20-00-01-821.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-20-14-03-971.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-20-15-35-044.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-20-20-07-256.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-20-28-00-633.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-20-34-44-936.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-20-39-36-905.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-20-43-11-080.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-20-48-14-870.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-20-50-05-390.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-20-51-28-826.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-20-52-27-928.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-20-52-48-015.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-21-32-39-679.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-21-37-13-395.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-04-22-21-40-24-784.rawproto" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
@@ -24,6 +88,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$string.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ru/iam1/translator/LoadingActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ru/iam1/translator/LoadingActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ru/iam1/translator/LoadingActivity$AsyncTasks.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ru/iam1/translator/LoadingActivity$AsyncTasks.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ru/iam1/translator/LoadingActivity$MyTimerTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ru/iam1/translator/LoadingActivity$MyTimerTask$1.class" />
@@ -36,28 +106,56 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ru/iam1/translator/MainActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ru/iam1/translator/MainActivity$5.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ru/iam1/translator/MainActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ru/iam1/translator/MainActivity$6.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ru/iam1/translator/MainActivity$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ru/iam1/translator/MainActivity$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ru/iam1/translator/MainActivity$DetectAsyncTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ru/iam1/translator/MainActivity$DetectAsyncTask.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ru/iam1/translator/MainActivity$MyTimerTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ru/iam1/translator/MainActivity$MyTimerTask$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ru/iam1/translator/MainActivity$MyTimerTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ru/iam1/translator/MainActivity$MyTimerTask.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ru/iam1/translator/MainActivity$TranslateAsyncTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ru/iam1/translator/MainActivity$TranslateAsyncTask.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ru/iam1/translator/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ru/iam1/translator/MainActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ru/iam1/translator/PhpClient.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ru/iam1/translator/PhpClient.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ru/iam1/translator/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ru/iam1/translator/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ru/iam1/translator/R$integer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ru/iam1/translator/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ru/iam1/translator/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ru/iam1/translator/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ru/iam1/translator/R$mipmap.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ru/iam1/translator/R$mipmap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ru/iam1/translator/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ru/iam1/translator/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ru/iam1/translator/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ru/iam1/translator/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ru/iam1/translator/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ru/iam1/translator/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ru/iam1/translator/Translator$1Pair.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ru/iam1/translator/Translator$1Pair.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ru/iam1/translator/Translator$1PairComparator.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ru/iam1/translator/Translator$1PairComparator.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ru/iam1/translator/Translator.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ru/iam1/translator/Translator.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/DpOp5d2oGKYLoa4GcJe_h2c+rkg=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/DpOp5d2oGKYLoa4GcJe_h2c+rkg=" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_9f20c540d331ff729b6bd70ca31982040fa31412.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_9f20c540d331ff729b6bd70ca31982040fa31412.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/mockable-android-25.jar" afterPath="$PROJECT_DIR$/build/generated/mockable-android-25.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/design/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/design/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/ru/iam1/translator/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/ru/iam1/translator/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ru.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ru.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/mipmap-xhdpi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/mipmap-xhdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-ru/values-ru.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-ru/values-ru.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ru/iam1/translator/LoadingActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/ru/iam1/translator/LoadingActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ru/iam1/translator/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/ru/iam1/translator/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ru/iam1/translator/PhpClient.java" afterPath="$PROJECT_DIR$/app/src/main/java/ru/iam1/translator/PhpClient.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ru/iam1/translator/Translator.java" afterPath="$PROJECT_DIR$/app/src/main/java/ru/iam1/translator/Translator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values-ru/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values-ru/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
     </list>
     <ignored path="Translator.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -89,29 +187,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-          <provider selected="true" editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="133" column="50" selection-start-line="133" selection-start-column="50" selection-end-line="133" selection-end-column="50" />
-              <folding>
-                <element signature="e#3620#3639#0" expanded="true" />
-                <element signature="e#4606#4626#0" expanded="true" />
-                <element signature="e#5038#5059#0" expanded="true" />
-                <element signature="e#5528#5560#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="PhpClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/iam1/translator/PhpClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="133" column="35" selection-start-line="133" selection-start-column="18" selection-end-line="133" selection-end-column="35" />
+            <state relative-caret-position="167">
+              <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,29 +199,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/iam1/translator/MainActivity.java">
+      <file leaf-file-name="DBHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/iam1/translator/DBHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="395" column="13" selection-start-line="395" selection-start-column="13" selection-end-line="395" selection-end-column="13" />
+            <state relative-caret-position="-943">
+              <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1835#1870#0" expanded="true" />
-                <element signature="e#2075#2110#0" expanded="true" />
-                <element signature="e#2314#2348#0" expanded="true" />
-                <element signature="e#2789#2961#0" expanded="true" />
-                <element signature="e#2893#2894#0" expanded="false" />
-                <element signature="e#2950#2951#0" expanded="false" />
-                <element signature="e#2960#2961#0" expanded="true" />
-                <element signature="e#3178#3213#0" expanded="true" />
-                <element signature="e#3395#3559#0" expanded="true" />
-                <element signature="e#3558#3559#0" expanded="true" />
-                <element signature="e#4784#4817#0" expanded="true" />
-                <element signature="e#4993#5153#0" expanded="true" />
-                <element signature="e#5152#5153#0" expanded="true" />
-                <element signature="e#11661#11719#0" expanded="true" />
-                <element signature="e#12207#12351#0" expanded="true" />
-                <element signature="e#12350#12351#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -150,25 +214,44 @@
       <file leaf-file-name="LoadingActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/iam1/translator/LoadingActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1445">
-              <caret line="37" column="50" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
-              <folding />
+            <state relative-caret-position="507">
+              <caret line="161" column="5" selection-start-line="161" selection-start-column="5" selection-end-line="161" selection-end-column="5" />
+              <folding>
+                <element signature="e#2029#2030#0" expanded="true" />
+                <element signature="e#2059#2060#0" expanded="true" />
+                <element signature="e#3187#3188#0" expanded="true" />
+                <element signature="e#3231#3232#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Translator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/iam1/translator/Translator.java">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/iam1/translator/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="626">
-              <caret line="78" column="43" selection-start-line="78" selection-start-column="43" selection-end-line="78" selection-end-column="43" />
+            <state relative-caret-position="218">
+              <caret line="678" column="0" selection-start-line="678" selection-start-column="0" selection-end-line="678" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2327#2328#0" expanded="true" />
-                <element signature="e#2374#2375#0" expanded="true" />
-                <element signature="e#2409#2410#0" expanded="true" />
-                <element signature="e#2454#2455#0" expanded="true" />
+                <element signature="e#9531#9532#0" expanded="true" />
+                <element signature="e#9562#9563#0" expanded="true" />
+                <element signature="e#10093#10094#0" expanded="true" />
+                <element signature="e#10123#10124#0" expanded="true" />
+                <element signature="e#18058#18059#0" expanded="true" />
+                <element signature="e#18102#18103#0" expanded="true" />
+                <element signature="e#19836#19837#0" expanded="true" />
+                <element signature="e#19880#19881#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Translator.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/iam1/translator/Translator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="35">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -178,10 +261,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="layoutResourceFile_vertical" />
         <option value="valueResourceFile" />
-        <option value="Class" />
         <option value="resourceFile" />
+        <option value="Class" />
+        <option value="layoutResourceFile_vertical" />
       </list>
     </option>
   </component>
@@ -1688,7 +1771,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="C:\Users\iam1\AndroidStudioProjects\Translator" value="4477635913322" />
+        <entry key="C:\Users\iam1\AndroidStudioProjects\Translator" value="4478063531411" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1999,16 +2082,19 @@
         <option value="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/integers.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/border.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values-ru/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_loading.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ru/iam1/translator/LoadingActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ru/iam1/translator/Translator.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ru/iam1/translator/NoSSLv3SocketFactory.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/history_element.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values-ru/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/ru/iam1/translator/PhpClient.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ru/iam1/translator/Translator.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ru/iam1/translator/DBHelper.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ru/iam1/translator/LoadingActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ru/iam1/translator/MainActivity.java" />
       </list>
     </option>
@@ -2044,10 +2130,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2138,38 +2222,6 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Translator" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Translator" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
@@ -2188,12 +2240,28 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Translator" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="manifests" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2202,6 +2270,8 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHub/PortableGit_f02737a78695063deace08e96d5042710d3e32db/cmd/git.exe" />
     <property name="device.picker.selection" value="CB5A1KC2XA" />
+    <property name="android.project.structure.last.selected" value="app" />
+    <property name="android.project.structure.proportion" value="0.15" />
   </component>
   <component name="RunManager" selected="Android App.app">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -2527,7 +2597,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="142" y="-8" width="1786" height="1096" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.4976825" order="7" side_tool="false" content_ui="tabs" />
@@ -2535,7 +2605,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5023175" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30990416" sideWeight="0.8128621" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2140575" sideWeight="0.8128621" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23348783" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2575,6 +2645,27 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/iam1/translator/LoadingActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="37" column="50" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
+          <folding>
+            <element signature="e#2029#2030#0" expanded="true" />
+            <element signature="e#2059#2060#0" expanded="true" />
+            <element signature="e#3187#3188#0" expanded="true" />
+            <element signature="e#3231#3232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/iam1/translator/Translator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="78" column="43" selection-start-line="78" selection-start-column="43" selection-end-line="78" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="android-designer2">
         <state />
@@ -2583,10 +2674,11 @@
         <state relative-caret-position="1003">
           <caret line="59" column="56" selection-start-line="59" selection-start-column="56" selection-end-line="59" selection-end-column="56" />
           <folding>
-            <element signature="e#3620#3639#0" expanded="true" />
-            <element signature="e#4606#4626#0" expanded="true" />
-            <element signature="e#5038#5059#0" expanded="true" />
-            <element signature="e#5528#5560#0" expanded="true" />
+            <element signature="e#3614#3633#0" expanded="true" />
+            <element signature="e#4599#4619#0" expanded="true" />
+            <element signature="e#5034#5055#0" expanded="true" />
+            <element signature="e#5521#5553#0" expanded="true" />
+            <element signature="e#6800#6822#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2607,22 +2699,14 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1835#1870#0" expanded="true" />
-            <element signature="e#2075#2110#0" expanded="true" />
-            <element signature="e#2314#2348#0" expanded="true" />
-            <element signature="e#2789#2961#0" expanded="true" />
-            <element signature="e#2893#2894#0" expanded="false" />
-            <element signature="e#2950#2951#0" expanded="false" />
-            <element signature="e#2960#2961#0" expanded="true" />
-            <element signature="e#3178#3213#0" expanded="true" />
-            <element signature="e#3395#3559#0" expanded="true" />
-            <element signature="e#3558#3559#0" expanded="true" />
-            <element signature="e#4784#4817#0" expanded="true" />
-            <element signature="e#4993#5153#0" expanded="true" />
-            <element signature="e#5152#5153#0" expanded="true" />
-            <element signature="e#11661#11719#0" expanded="true" />
-            <element signature="e#12207#12351#0" expanded="true" />
-            <element signature="e#12350#12351#0" expanded="true" />
+            <element signature="e#9531#9532#0" expanded="true" />
+            <element signature="e#9562#9563#0" expanded="true" />
+            <element signature="e#10093#10094#0" expanded="true" />
+            <element signature="e#10123#10124#0" expanded="true" />
+            <element signature="e#18058#18059#0" expanded="true" />
+            <element signature="e#18102#18103#0" expanded="true" />
+            <element signature="e#19836#19837#0" expanded="true" />
+            <element signature="e#19880#19881#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2631,13 +2715,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
           <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2327#2328#0" expanded="true" />
-            <element signature="e#2374#2375#0" expanded="true" />
-            <element signature="e#2409#2410#0" expanded="true" />
-            <element signature="e#2454#2455#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2649,10 +2727,11 @@
         <state relative-caret-position="85">
           <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
           <folding>
-            <element signature="e#3620#3639#0" expanded="true" />
-            <element signature="e#4606#4626#0" expanded="true" />
-            <element signature="e#5038#5059#0" expanded="true" />
-            <element signature="e#5528#5560#0" expanded="true" />
+            <element signature="e#3614#3633#0" expanded="true" />
+            <element signature="e#4599#4619#0" expanded="true" />
+            <element signature="e#5034#5055#0" expanded="true" />
+            <element signature="e#5521#5553#0" expanded="true" />
+            <element signature="e#6800#6822#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2662,7 +2741,10 @@
         <state relative-caret-position="2703">
           <caret line="172" column="42" selection-start-line="172" selection-start-column="42" selection-end-line="172" selection-end-column="42" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="e#2029#2030#0" expanded="true" />
+            <element signature="e#2059#2060#0" expanded="true" />
+            <element signature="e#3187#3188#0" expanded="true" />
+            <element signature="e#3231#3232#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2683,22 +2765,14 @@
           <caret line="49" column="45" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1835#1870#0" expanded="true" />
-            <element signature="e#2075#2110#0" expanded="true" />
-            <element signature="e#2314#2348#0" expanded="true" />
-            <element signature="e#2789#2961#0" expanded="true" />
-            <element signature="e#2893#2894#0" expanded="false" />
-            <element signature="e#2950#2951#0" expanded="false" />
-            <element signature="e#2960#2961#0" expanded="true" />
-            <element signature="e#3178#3213#0" expanded="true" />
-            <element signature="e#3395#3559#0" expanded="true" />
-            <element signature="e#3558#3559#0" expanded="true" />
-            <element signature="e#4784#4817#0" expanded="true" />
-            <element signature="e#4993#5153#0" expanded="true" />
-            <element signature="e#5152#5153#0" expanded="true" />
-            <element signature="e#11661#11719#0" expanded="true" />
-            <element signature="e#12207#12351#0" expanded="true" />
-            <element signature="e#12350#12351#0" expanded="true" />
+            <element signature="e#9531#9532#0" expanded="true" />
+            <element signature="e#9562#9563#0" expanded="true" />
+            <element signature="e#10093#10094#0" expanded="true" />
+            <element signature="e#10123#10124#0" expanded="true" />
+            <element signature="e#18058#18059#0" expanded="true" />
+            <element signature="e#18102#18103#0" expanded="true" />
+            <element signature="e#19836#19837#0" expanded="true" />
+            <element signature="e#19880#19881#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2707,13 +2781,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2327#2328#0" expanded="true" />
-            <element signature="e#2374#2375#0" expanded="true" />
-            <element signature="e#2409#2410#0" expanded="true" />
-            <element signature="e#2454#2455#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2725,10 +2793,11 @@
         <state relative-caret-position="85">
           <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
           <folding>
-            <element signature="e#3620#3639#0" expanded="true" />
-            <element signature="e#4606#4626#0" expanded="true" />
-            <element signature="e#5038#5059#0" expanded="true" />
-            <element signature="e#5528#5560#0" expanded="true" />
+            <element signature="e#3614#3633#0" expanded="true" />
+            <element signature="e#4599#4619#0" expanded="true" />
+            <element signature="e#5034#5055#0" expanded="true" />
+            <element signature="e#5521#5553#0" expanded="true" />
+            <element signature="e#6800#6822#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2737,9 +2806,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
-          <folding>
-            <element signature="e#638#656#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2749,22 +2816,14 @@
           <caret line="43" column="69" selection-start-line="43" selection-start-column="69" selection-end-line="43" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1835#1870#0" expanded="true" />
-            <element signature="e#2075#2110#0" expanded="true" />
-            <element signature="e#2314#2348#0" expanded="true" />
-            <element signature="e#2789#2961#0" expanded="true" />
-            <element signature="e#2893#2894#0" expanded="false" />
-            <element signature="e#2950#2951#0" expanded="false" />
-            <element signature="e#2960#2961#0" expanded="true" />
-            <element signature="e#3178#3213#0" expanded="true" />
-            <element signature="e#3395#3559#0" expanded="true" />
-            <element signature="e#3558#3559#0" expanded="true" />
-            <element signature="e#4784#4817#0" expanded="true" />
-            <element signature="e#4993#5153#0" expanded="true" />
-            <element signature="e#5152#5153#0" expanded="true" />
-            <element signature="e#11661#11719#0" expanded="true" />
-            <element signature="e#12207#12351#0" expanded="true" />
-            <element signature="e#12350#12351#0" expanded="true" />
+            <element signature="e#9531#9532#0" expanded="true" />
+            <element signature="e#9562#9563#0" expanded="true" />
+            <element signature="e#10093#10094#0" expanded="true" />
+            <element signature="e#10123#10124#0" expanded="true" />
+            <element signature="e#18058#18059#0" expanded="true" />
+            <element signature="e#18102#18103#0" expanded="true" />
+            <element signature="e#19836#19837#0" expanded="true" />
+            <element signature="e#19880#19881#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2774,7 +2833,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="e#2029#2030#0" expanded="true" />
+            <element signature="e#2059#2060#0" expanded="true" />
+            <element signature="e#3187#3188#0" expanded="true" />
+            <element signature="e#3231#3232#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2804,22 +2866,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#3620#3639#0" expanded="true" />
-            <element signature="e#4606#4626#0" expanded="true" />
-            <element signature="e#5038#5059#0" expanded="true" />
-            <element signature="e#5528#5560#0" expanded="true" />
+            <element signature="e#512#530#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2832,10 +2880,28 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#3620#3639#0" expanded="true" />
-            <element signature="e#4606#4626#0" expanded="true" />
-            <element signature="e#5038#5059#0" expanded="true" />
-            <element signature="e#5528#5560#0" expanded="true" />
+            <element signature="e#3614#3633#0" expanded="true" />
+            <element signature="e#4599#4619#0" expanded="true" />
+            <element signature="e#5034#5055#0" expanded="true" />
+            <element signature="e#5521#5553#0" expanded="true" />
+            <element signature="e#6800#6822#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#3614#3633#0" expanded="true" />
+            <element signature="e#4599#4619#0" expanded="true" />
+            <element signature="e#5034#5055#0" expanded="true" />
+            <element signature="e#5521#5553#0" expanded="true" />
+            <element signature="e#6800#6822#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2874,7 +2940,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="717" column="12" selection-start-line="717" selection-start-column="12" selection-end-line="717" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2890,22 +2955,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-ru/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2939,10 +2988,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/trashbox.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-ldltr-v21/values-ldltr-v21.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+        <state relative-caret-position="102">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -2950,34 +3011,123 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/iam1/translator/LoadingActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/iam1/translator/NoSSLv3SocketFactory.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-25/android/app/AlertDialog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1445">
-          <caret line="37" column="50" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
+        <state relative-caret-position="444">
+          <caret line="450" column="15" selection-start-line="450" selection-start-column="15" selection-end-line="450" selection-end-column="15" />
+          <folding>
+            <element signature="e#16537#16538#0" expanded="false" />
+            <element signature="e#16606#16607#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-25/android/database/sqlite/SQLiteOpenHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-ru/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="96" selection-start-line="17" selection-start-column="96" selection-end-line="17" selection-end-column="96" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer2">
+      <provider editor-type-id="android-designer2">
         <state />
       </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="133" column="50" selection-start-line="133" selection-start-column="50" selection-end-line="133" selection-end-column="50" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="224" column="65" selection-start-line="224" selection-start-column="65" selection-end-line="224" selection-end-column="65" />
           <folding>
-            <element signature="e#3620#3639#0" expanded="true" />
-            <element signature="e#4606#4626#0" expanded="true" />
-            <element signature="e#5038#5059#0" expanded="true" />
-            <element signature="e#5528#5560#0" expanded="true" />
+            <element signature="e#3614#3633#0" expanded="true" />
+            <element signature="e#4599#4619#0" expanded="true" />
+            <element signature="e#5034#5055#0" expanded="true" />
+            <element signature="e#5521#5553#0" expanded="true" />
+            <element signature="e#6800#6822#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/history_element.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="54" column="31" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/ru/iam1/translator/ExampleInstrumentedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/iam1/translator/DBHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-943">
+          <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/iam1/translator/LoadingActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="161" column="5" selection-start-line="161" selection-start-column="5" selection-end-line="161" selection-end-column="5" />
+          <folding>
+            <element signature="e#2029#2030#0" expanded="true" />
+            <element signature="e#2059#2060#0" expanded="true" />
+            <element signature="e#3187#3188#0" expanded="true" />
+            <element signature="e#3231#3232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/iam1/translator/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="678" column="0" selection-start-line="678" selection-start-column="0" selection-end-line="678" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#9531#9532#0" expanded="true" />
+            <element signature="e#9562#9563#0" expanded="true" />
+            <element signature="e#10093#10094#0" expanded="true" />
+            <element signature="e#10123#10124#0" expanded="true" />
+            <element signature="e#18058#18059#0" expanded="true" />
+            <element signature="e#18102#18103#0" expanded="true" />
+            <element signature="e#19836#19837#0" expanded="true" />
+            <element signature="e#19880#19881#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/iam1/translator/PhpClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="133" column="35" selection-start-line="133" selection-start-column="18" selection-end-line="133" selection-end-column="35" />
+        <state relative-caret-position="167">
+          <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2986,41 +3136,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/iam1/translator/Translator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="78" column="43" selection-start-line="78" selection-start-column="43" selection-end-line="78" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2327#2328#0" expanded="true" />
-            <element signature="e#2374#2375#0" expanded="true" />
-            <element signature="e#2409#2410#0" expanded="true" />
-            <element signature="e#2454#2455#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ru/iam1/translator/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="395" column="13" selection-start-line="395" selection-start-column="13" selection-end-line="395" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1835#1870#0" expanded="true" />
-            <element signature="e#2075#2110#0" expanded="true" />
-            <element signature="e#2314#2348#0" expanded="true" />
-            <element signature="e#2789#2961#0" expanded="true" />
-            <element signature="e#2893#2894#0" expanded="false" />
-            <element signature="e#2950#2951#0" expanded="false" />
-            <element signature="e#2960#2961#0" expanded="true" />
-            <element signature="e#3178#3213#0" expanded="true" />
-            <element signature="e#3395#3559#0" expanded="true" />
-            <element signature="e#3558#3559#0" expanded="true" />
-            <element signature="e#4784#4817#0" expanded="true" />
-            <element signature="e#4993#5153#0" expanded="true" />
-            <element signature="e#5152#5153#0" expanded="true" />
-            <element signature="e#11661#11719#0" expanded="true" />
-            <element signature="e#12207#12351#0" expanded="true" />
-            <element signature="e#12350#12351#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="35">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
